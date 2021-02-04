@@ -33,8 +33,8 @@
       { "id": 3, "text": "Терминалы" }
     ],
     "pay": [
-      { "id": 1, "text": "Картой" },
-      { "id": 2, "text": "Наличными" }
+      { "id": 1, filter:"credit", "text": "Картой" },
+      { "id": 2, filter:"cash", "text": "Наличными" }
     ]  
   },
   "profile": {
