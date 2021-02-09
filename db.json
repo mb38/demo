@@ -9,7 +9,7 @@
           "credit": false
       },
       "type": {
-          "Pick-up and drop-off points": true,
+          "PickUpPoints": true,
           "Postamates": false,
           "Terminals": true
        }
@@ -23,7 +23,7 @@
           "credit": true
       },
       "type": {
-          "Pick-up and drop-off points": false,
+          "PickUpPoints": false,
           "Postamates": false,
           "Terminals": false
        }
@@ -37,7 +37,7 @@
           "credit": true
       },
       "type": {
-          "Pick-up and drop-off points": true,
+          "PickUpPoints": true,
           "Postamates": true,
           "Terminals": false
        }
@@ -51,7 +51,7 @@
           "credit": false
       },
       "type": {
-          "Pick-up and drop-off points": false,
+          "PickUpPoints": false,
           "Postamates": true,
           "Terminals": true
        }
@@ -65,7 +65,7 @@
           "credit": true
       },
       "type": {
-          "Pick-up and drop-off points": true,
+          "PickUpPoints": true,
           "Postamates": true,
           "Terminals": true
        }
