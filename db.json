@@ -7,9 +7,9 @@
       "filter": {
         "cash": true,
         "credit": false,
-        "PickUpPoints": true,
-        "Postamates": false,
-        "Terminals": true
+        "pickUpPoints": true,
+        "postamates": false,
+        "terminals": true
       }
     },
     { 
@@ -19,9 +19,9 @@
       "filter": {
         "cash": true,
         "credit": false,
-        "PickUpPoints": true,
-        "Postamates": false,
-        "Terminals": true
+        "pickUpPoints": true,
+        "postamates": false,
+        "terminals": true
       }
     },
     { 
@@ -31,9 +31,9 @@
       "filter": {
         "cash": true,
         "credit": false,
-        "PickUpPoints": true,
-        "Postamates": false,
-        "Terminals": true
+        "pickUpPoints": true,
+        "postamates": false,
+        "terminals": true
       }
     },
     { 
@@ -43,9 +43,9 @@
       "filter": {
         "cash": true,
         "credit": false,
-        "PickUpPoints": true,
-        "Postamates": false,
-        "Terminals": true
+        "pickUpPoints": true,
+        "postamates": false,
+        "terminals": true
       }
     },
     { 
@@ -55,21 +55,41 @@
       "filter": {
         "cash": true,
         "credit": false,
-        "PickUpPoints": true,
-        "Postamates": false,
-        "Terminals": true
+        "pickUpPoints": true,
+        "postamates": false,
+        "terminals": true
       }
     }
   ],
   "filters": {
     "type": [
-      { "id": 1, "text": "Пункты приема и выдачи" },
-      { "id": 2, "text": "Постаматы" },
-      { "id": 3, "text": "Терминалы" }
+      { 
+       "id": 1,
+       "text": "Пункты приема и выдачи",
+       "name": "pickUpPoints"
+      },
+      { 
+        "id": 2, 
+        "text": "Постаматы",
+        "name": "tostamates"
+      },
+      { 
+        "id": 3, 
+        "text": "Терминалы",
+        "name": "terminals"
+      }
     ],
     "pay": [
-      { "id": 1, "text": "Картой" },
-      { "id": 2, "text": "Наличными" }
+      { 
+        "id": 1, 
+        "text": "Картой",
+        "name": "cash"
+      },
+      { 
+        "id": 2, 
+        "text": "Наличными"
+        "name": "credit"
+      }
     ]  
   },
   "profile": {
