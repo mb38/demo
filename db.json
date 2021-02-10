@@ -4,71 +4,61 @@
       "id": 1, 
       "title": "Новокузнцек, пр-кт Металлургов",
       "coordinates": [53.757182130879194, 87.11845558599445],
-      "payment": {
-          "cash": true,
-          "credit": false
-      },
-      "type": {
-          "PickUpPoints": true,
-          "Postamates": false,
-          "Terminals": true
-       }
+      "filter": {
+        "cash": true,
+        "credit": false,
+        "PickUpPoints": true,
+        "Postamates": false,
+        "Terminals": true
+      }
     },
     { 
       "id": 2, 
       "title": "Новокузнцек, ул Строителей",
       "coordinates": [53.77311595830676, 87.12364150532856],
-      "payment": {
-          "cash": true,
-          "credit": true
-      },
-      "type": {
-          "PickUpPoints": false,
-          "Postamates": false,
-          "Terminals": false
-       }
+      "filter": {
+        "cash": true,
+        "credit": false,
+        "PickUpPoints": true,
+        "Postamates": false,
+        "Terminals": true
+      }
     },
     { 
       "id": 3, 
       "title": "Новокузнецк, ул Кирова",
       "coordinates": [53.757550888695825, 87.1394626469991],
-      "payment": {
-          "cash": false,
-          "credit": true
-      },
-      "type": {
-          "PickUpPoints": true,
-          "Postamates": true,
-          "Terminals": false
-       }
+      "filter": {
+        "cash": true,
+        "credit": false,
+        "PickUpPoints": true,
+        "Postamates": false,
+        "Terminals": true
+      }
     },
     { 
       "id": 4, 
       "title": "Новокузнецк, КМК",
       "coordinates": [53.76661377814568, 87.0926566267885],
-      "payment": {
-          "cash": true,
-          "credit": false
-      },
-      "type": {
-          "PickUpPoints": false,
-          "Postamates": true,
-          "Terminals": true
-       }
+      "filter": {
+        "cash": true,
+        "credit": false,
+        "PickUpPoints": true,
+        "Postamates": false,
+        "Terminals": true
+      }
     },
     { 
       "id": 5, 
       "title": "Новокузнецк, пр-кт Дружбы",
       "coordinates": [53.7492124621618, 87.15353785956653],
-      "payment": {
-          "cash": true,
-          "credit": true
-      },
-      "type": {
-          "PickUpPoints": true,
-          "Postamates": true,
-          "Terminals": true
-       }
+      "filter": {
+        "cash": true,
+        "credit": false,
+        "PickUpPoints": true,
+        "Postamates": false,
+        "Terminals": true
+      }
     }
   ],
   "filters": {
